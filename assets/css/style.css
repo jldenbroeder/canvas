@@ -27,7 +27,7 @@ html, body {
   /* centrer verticalement */
   justify-content: center;
   -ms-flex-pack: center;
-  background-color: rgb(249, 247, 196);
+  /*background-color: rgb(249, 247, 196);*/
 }
 
 .row1 {
@@ -43,14 +43,10 @@ html, body {
   background-color: rgb(255, 255, 255);
 }
 
-.col_30 {
-  width: 33.33%;
+#canvas1 {
+  background-color: rgb(233, 232, 199);
 }
 
-.col_fin {
-  -webkit-box-flex: 1;
-  -moz-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+#canvas2 {
+  background-color: rgb(180, 198, 177);
 }
